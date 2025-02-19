@@ -191,7 +191,7 @@ def SecondPass(lst, outfile):
         else:
             continue
 
-# main for all test cases
+# main
 
 for i in range(3):
     Instructions= GetInstructions(f"Ex_test_{i}.txt")
