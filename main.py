@@ -82,7 +82,7 @@ def Stype(inst, pc):
 
     imm= label(temp2[0], pc)*2
     imm= immManager(imm, 12)
-
+ 
     try: 
         rs2= RegisterMap[temp1[0]]
         rs1= RegisterMap[temp2[1][:-1]]
